@@ -17,8 +17,8 @@ class TestFactorial(unittest.TestCase):
     def test_fact4(self):
         self.assertEqual(fact(1000),"The number is too big")
 
-    """def test_invalid(self):
-        self.assertEqual(fact(100),"No characters allowed")"""
+    """def test_fact5(self):
+        self.assertEqual(fact("two"),"No characters allowed")"""
 
      
 
