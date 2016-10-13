@@ -24,12 +24,12 @@ class Person:
 class Employees(Info):
 	"""This class I have left it blank.it inherits details from Info class"""
 
-class male(Person): #classes for portraying polymorphism starts
+class Male(Person): #classes for portraying polymorphism starts
 	def gender(self):
 		return "Male Employee" #classes for portraying polymorphism ends
 
 
-class female(Person):
+class Female(Person):
 	def gender(self):
 		return "Female Employee"
 
